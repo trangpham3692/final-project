@@ -1,0 +1,143 @@
+.best-selling {
+   margin-top: 114px;
+   text-align: center;
+}
+
+.best-selling-titile {
+   color: rgb(34, 79, 52);
+   font-family: Roboto Slab;
+   font-size: 64px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   padding: 20px 0;
+   margin-top: 37px;
+}
+
+.best-selling-details {
+   color: #224F34;
+   font-family: Poppins;
+   font-size: 22px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   padding: 9px 0;
+   margin-bottom: 80px;
+}
+
+.best-selling-container {
+   display: flex;
+   justify-content: space-around;
+   margin: 0 250px;
+}
+
+@media (min-width: 1000px) {
+   .best-selling-container {
+      margin-left: 80px;
+      margin-right: 80px;
+   }   
+}
+
+.best-selling-image1,
+.best-selling-image2,
+.best-selling-image3 {
+   width: 430px;
+   height: 566px;
+   flex-shrink: 0;
+   margin-bottom: 51px;
+   cursor: pointer;
+}
+
+.best-selling-image1 {
+   background-color: rgb(147, 185, 162);
+}
+
+.best-selling-image2 {
+   background-color: rgb(169, 212, 186);
+}
+
+.best-selling-image3 {
+   background-color: rgb(202, 220, 208);
+}
+
+.item-name {
+   color: rgb(55, 55, 55);
+   text-align: center;
+   font-family: Poppins;
+   font-size: 22px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+   margin-bottom: 8px;
+   cursor: pointer;
+}
+
+.item-price-rate {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: rgb(69, 69, 69);
+   margin-bottom: 80px;
+}
+
+.item-price {
+   font-family: Poppins;
+   font-size: 22px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+}
+
+.between-line {
+   width: 1px;
+   height: 27px;
+   background: rgb(69, 69, 69);
+   margin-right: 39px;
+   margin-left: 48px;
+}
+
+.item-rate {
+   font-family: Poppins;
+   font-size: 22px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   margin-right: 9px;
+}
+
+.star-icon {
+   width: 24px;
+   height: 24px;
+   flex-shrink: 0;
+}
+
+.see-all-button {
+   width: auto;
+   display: inline-flex;
+   position: relative;
+   background-color: white;
+   padding: 16px 55px;
+   flex-direction: column;
+   align-items: flex-start;
+   gap: 10px;
+   border-radius: 3px;
+   border: 2px solid rgb(34, 79, 52);
+   align-items: center;
+   cursor: pointer;
+}
+
+.button-name {
+   color: rgb(34, 79, 52);
+   font-family: Poppins;
+   font-size: 22px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   margin-right: 55px;
+}
+
+.right-arrow {
+   position: absolute;
+   top: 24px;
+   left: 150px;
+}

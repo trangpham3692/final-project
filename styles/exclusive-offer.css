@@ -1,0 +1,138 @@
+.exclusive-offer {
+   display: flex;
+   justify-content: center;
+   width: 1450px;
+   height: 596px;    
+   flex-shrink: 0;
+   border-radius: 3px;
+   background: rgb(194, 239, 212);
+   margin: 100px 176px;
+}
+
+.exclusive-offer-left {
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.rectangle-box1 {
+   position: absolute;
+   width: 190px;
+   height: 131px;
+   flex-shrink: 0;
+   background: rgba(223, 251, 234, 0.50);
+   left: 100px;
+   top: 400px;
+}
+
+.dot-group-bottom1 {
+   position: absolute;
+   width: 119px;
+   height: 110px;
+   flex-shrink: 0;
+   left: 41px;
+   top: 440px;
+}
+
+.exclusive-offer-image {
+   position: absolute;
+   left: 80px;
+   top: 0;
+}
+
+.exclusive-offer-right {
+   display: block;
+   margin-left: 690px;
+   margin-top: 75px;
+}
+
+.exclusive-offer-title {
+   color: rgb(34, 79, 52);
+   font-family: Roboto Slab;
+   font-size: 46px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+   padding: 15px 0;
+}
+
+.exclusive-offer-details {
+   color: rgb(34, 79, 52);
+   font-family: Poppins;
+   font-size: 22px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 167%; /* 36.74px */
+   padding: 11px 0;
+   margin-right: 160px;
+}
+
+.exclusive-offer-time {
+   display: flex;
+}
+
+.day-container,
+.hour-container,
+.min-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 40px;
+   margin-right: 40px;
+}
+
+.rectangle-box2 {
+   position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   justify-items: center;
+   width: 100px;
+   height: 100px;
+   flex-shrink: 0;
+   border-radius: 3px;
+   background: rgb(255, 255, 255);
+   box-shadow: 0px 7px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.container-text {
+   position: absolute;
+   display: inline-block;
+   align-items: center;
+   justify-content: center;
+   align-content: center;
+}
+
+.exclusive-offer-number {
+   color: rgb(34, 79, 52);
+   font-family: Poppins;
+   font-size: 32px;
+   font-weight: 600;
+}
+
+.exclusive-offer-text {
+   color: rgb(34, 79, 52);
+   font-family: Poppins;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+}
+
+.buy-now-button {
+   color: white;
+   width: 235px;
+   height: 74px;
+   flex-shrink: 0;
+   border: none;
+   border-radius: 3px;
+   background: rgb(34, 79, 52);
+   box-shadow: 0px 7px 30px 0px rgba(0, 0, 0, 0.05);
+   font-family: Poppins;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   text-transform: uppercase;
+   margin-top: 41px;
+}
